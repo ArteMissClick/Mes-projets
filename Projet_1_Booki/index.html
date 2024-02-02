@@ -18,7 +18,9 @@
 <body>
     <div class="main-container">
         <header>
-            <img class="logo" src="./images/logo/Booki.png" alt="Logo Booki">
+            <div class="logo">
+                <img class="logo-booki" src="./images/logo/Booki.png" alt="Logo Booki">
+            </div>
             <nav class="menu">
                     <a href="#hebergements" class="menu-hebergements menu-button">Hébergements</a>
                     <a href="#activities" class="menu-activities menu-button">Activités</a>
@@ -27,17 +29,23 @@
         <main>
             <section class="info-research">
                 <div class="headline">
-                    <h1 class="info-search-title">Trouvez votre hébergement pour des vacances de rêve</h2>
+                    <h2 class="info-search-title">Trouvez votre hébergement pour des vacances de rêve</h2>
                     <p class="info-search-par">En plein centre-ville ou en pleine nature</p>
                 </div>
-                <form method="get" action="#" class="info-search-hebergement">
-                    <i class="fa-sharp fa-solid fa-location-dot info-search-hebergement-icon"></i>
-                    <input type="search" name="recherche" class="info-search-hebergement-form-bar" placeholder="Marseille, France">
-                    <button class="info-search-hebergement-button info-search-hebergement-button-big">Rechercher</button>
-                    <button class="info-search-hebergement-button info-search-hebergement-button-little"><i class="fa-solid fa-magnifying-glass"></i></button>
-                </form>
+                <div class="info-search-hebergement">
+                    <div class="info-search-hebergement-icon">
+                        <i class="fa-sharp fa-solid fa-location-dot"></i>
+                    </div>
+                    <form method="get" action="#" class="info-search-hebergement-form">
+                            <input type="search" name="recherche" class="info-search-hebergement-form-bar" placeholder="Marseille, France">
+                            <button class="info-search-hebergement-button info-search-hebergement-button-big">Rechercher</button>
+                            <button class="info-search-hebergement-button info-search-hebergement-button-little"><i class="fa-solid fa-magnifying-glass"></i></button>
+                        </form>
+                </div>
                 <div class="info-reaserch-filter-bar">
-                    <h3 class="info-reaserch-filter-bar-title">Filtres</h3>
+                    <div class="info-reaserch-filter-bar-title">
+                        <h3>Filtres</h3>
+                    </div>
                     <div class="info-reaserch-filter-bar-button">
                         <button onclick="window.location.href='#';" class="info-reaserch-filter-bar-button-in" type="button"><i class="fa-solid fa-money-bill-wave filter-icon"></i>Économique</button>
                         <button onclick="window.location.href='#';" class="info-reaserch-filter-bar-button-in" type="button"><i class="fa-solid fa-person filter-icon"></i>Familial</button>
@@ -54,7 +62,7 @@
                 <section class="hebergements">
                     <h2 class="section-title" id="hebergements">Hébergements à Marseille</h2>
                     <div class="hebergements-cards">
-                        <a href="#" class="card-a">
+                        <a href="#">
                             <article class="card">
                                 <img src="./images/hebergements/fred-kleber.jpg" alt="Image de la chambre d'hôtel montrant un lit">
                                 <div class="card-content">
@@ -73,7 +81,7 @@
                                 </div>
                             </article>
                         </a>
-                        <a href="#" class="card-a">
+                        <a href="#">
                             <article class="card">
                                 <img src="./images/hebergements/febrian-zakaria.jpg" alt="Image de la chambre d'hôtel montrant un lit">
                                 <div class="card-content">
@@ -92,7 +100,7 @@
                                 </div>
                             </article>
                         </a>
-                        <a href="#" class="card-a">
+                        <a href="#">
                             <article class="card">
                                 <img src="./images/hebergements/reisetopia.jpg" alt="Image de la chambre d'hôtel montrant un lit">
                                 <div class="card-content">
@@ -111,7 +119,7 @@
                                 </div>
                             </article>
                         </a>
-                        <a href="#" class="card-a">
+                        <a href="#">
                             <article class="card">
                                 <img src="./images/hebergements/annie-spratt.jpg" alt="Image de la chambre d'hôtel montrant un lit">
                                 <div class="card-content">
@@ -130,7 +138,7 @@
                                 </div>
                             </article>
                         </a>
-                        <a href="#" class="card-a">
+                        <a href="#">
                             <article class="card">
                                 <img src="./images/hebergements/marcus-loke.jpg" alt="Image de la chambre d'hôtel montrant un lit">
                                 <div class="card-content">
@@ -149,7 +157,7 @@
                                 </div>
                             </article>
                         </a>
-                        <a href="#" class="card-a">
+                        <a href="#">
                             <article class="card">
                                 <img src="./images/hebergements/nicate-lee.jpg" alt="Image de la chambre d'hôtel montrant un lit">
                                 <div class="card-content">
@@ -243,25 +251,41 @@
                     <a href="#" class="activities-cards-a">
                         <article class="card-act">
                             <img src="./images/activites/reno-laithienne.jpg" alt="Image de la chambre d'hôtel montrant un lit">
-                            <h3 class="card-content card-txt card-title">Vieux-Port</h3>
+                            <div class="card-content">
+                                <div class="card-txt">
+                                    <h3 class="card-title">Vieux-Port</h3>
+                                </div>
+                            </div>
                         </article>
                     </a>
                     <a href="#" class="activities-cards-a">
                         <article class="card-act">
                             <img src="./images/activites/paul-hermann.jpg" alt="Image de la chambre d'hôtel montrant un lit">
-                            <h3 class="card-content card-txt card-title">Fort de Pomègues</h3>
+                            <div class="card-content">
+                                <div class="card-txt">
+                                    <h3 class="card-title">Fort de Pomègues</h3>
+                                </div>
+                            </div>
                         </article>
                     </a>
                     <a href="#" class="activities-cards-a">
                         <article class="card-act">
                             <img src="./images/activites/kilyan-sockalingum.jpg" alt="Image de la chambre d'hôtel montrant un lit">
-                            <h3 class="card-content card-txt card-title">Parc national des Calanques</h3>
+                            <div class="card-content">
+                                <div class="card-txt">
+                                    <h3 class="card-title">Parc national des Calanques</h3>
+                                </div>
+                            </div>
                         </article>
                     </a>
                     <a href="#" class="activities-cards-a">
                         <article class="card-act">
                             <img src="./images/activites/florian-wehde.jpg" alt="Image de la chambre d'hôtel montrant un lit">
-                            <h3 class="card-content card-txt card-title">Notre-Dame-de-la-Garde</h3>
+                            <div class="card-content">
+                                <div class="card-txt">
+                                    <h3 class="card-title">Notre-Dame-de-la-Garde</h3>
+                                </div>
+                            </div>
                         </article>
                     </a>
                 </div>
@@ -269,20 +293,20 @@
         </main>
         <footer>
             <div class="footer-block">
-                <h3>À propos</h3>
-                <a href="#">Fonctionnement du site</a>
-                <a href="#">Conditions générales</a>
-                <a href="#">Données et confidentialité</a>
+                <a href="#"><h3>À propos</h3></a>
+                <p><a href="#">Fonctionnement du site</a></p>
+                <p><a href="#">Conditions générales</a></p>
+                <p><a href="#">Données et confidentialité</a></p>
             </div>
             <div class="footer-block">
-                <h3>Nos hébergements</h3>
-                <a href="#">Charte qualité</a>
-                <a href="#">Proposer votre hôtel</a>
+                <a href="#"><h3>Nos hébergements</h3></a>
+                <p><a href="#">Charte qualité</a></p>
+                <p><a href="#">Proposer votre hôtel</a></p>
             </div>
             <div class="footer-block">
-                <h3>Assistance</h3>
-                <a href="#">Centre d'aide</a>
-                <a href="#">Nous contacter</a>
+                <a href="#"><h3>Assistance</h3></a>
+                <p><a href="#">Centre d'aide</a></p>
+                <p><a href="#">Nous contacter</a></p>
             </div>
         </footer>
     </div>
