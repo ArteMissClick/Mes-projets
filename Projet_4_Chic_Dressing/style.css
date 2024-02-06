@@ -1,0 +1,230 @@
+/*
+Theme Name:		 chicdressing
+Theme URI:		 http://childtheme-generator.com/
+Description:	 chicdressing is a child theme of Ashe, created by ChildTheme-Generator.com
+Author:			 Chic Dressing
+Author URI:		 http://childtheme-generator.com/
+Template:		 ashe
+Version:		 1.0.0
+Text Domain:	 chicdressing
+*/
+
+
+/*
+    Add your custom styles here
+*/
+
+@font-face {
+	font-family: 'Playfair Display';
+	font-weight: 400;
+	src: url('http://localhost/Chic-Dressing-2/wp-content/themes/chicdressing/fonts/PlayfairDisplay-Regular.ttf') format('truetype'),
+}
+
+@font-face {
+	font-family: 'Playfair Display';
+	font-weight: 700;
+	src: url('http://localhost/Chic-Dressing-2/wp-content/themes/chicdressing/fonts/PlayfairDisplay-Bold.ttf') format('truetype'),
+}
+
+@font-face {
+	font-family: 'Open Sans';
+	font-weight: 400;
+	src: url('http://localhost/Chic-Dressing-2/wp-content/themes/chicdressing/fonts/OpenSans-Regular.ttf') format('truetype'),
+}
+
+@font-face {
+	font-family: 'Open Sans';
+	font-weight: 400;
+    font-style: italic;
+	src: url('http://localhost/Chic-Dressing-2/wp-content/themes/chicdressing/fonts/OpenSans-Italic.ttf') format('truetype'),
+}
+
+@font-face {
+	font-family: 'Open Sans';
+	font-weight: 600;
+	src: url('http://localhost/Chic-Dressing-2/wp-content/themes/chicdressing/fonts/OpenSans-SemiBold.ttf') format('truetype'),
+}
+
+@font-face {
+	font-family: 'Open Sans';
+	font-weight: 600;
+    font-style: italic;
+	src: url('http://localhost/Chic-Dressing-2/wp-content/themes/chicdressing/fonts/OpenSans-SemiBoldItalic.ttf') format('truetype'),
+}
+
+@font-face {
+	font-family: 'Open Sans';
+	font-weight: 700;
+	src: url('http://localhost/Chic-Dressing-2/wp-content/themes/chicdressing/fonts/OpenSans-Bold.ttf') format('truetype'),
+}
+
+@font-face {
+	font-family: 'Open Sans';
+	font-weight: 700;
+    font-style: italic;
+	src: url('http://localhost/Chic-Dressing-2/wp-content/themes/chicdressing/fonts/OpenSans-BoldItalic.ttf') format('truetype'),
+}
+
+@font-face {
+	font-family: 'Kalam';
+	font-weight: 400;
+	src: url('http://localhost/Chic-Dressing-2/wp-content/themes/chicdressing/fonts/Kalam-Regular.ttf') format('truetype'),
+}
+
+@font-face {
+	font-family: 'Kalam';
+	font-weight: 300;
+	src: url('http://localhost/Chic-Dressing-2/wp-content/themes/chicdressing/fonts/Kalam-Light.ttf') format('truetype'),
+}
+
+@font-face {
+	font-family: 'Kalam';
+	font-weight: 700;
+	src: url('http://localhost/Chic-Dressing-2/wp-content/themes/chicdressing/fonts/Kalam-Bold.ttf') format('truetype'),
+}
+
+body .page-content, .page-content select, .page-content input, .page-content textarea, .page-content .post-author a, .page-content .ashe-widget a, .page-content .comment-author {
+    color: #000000;
+    font-size: 14px;
+}
+
+body .header-logo a{
+    color: white;
+    text-shadow: 2px 3px 5px #d0527a;
+    transform: rotate(-9deg);
+}
+
+
+body .page-content .post-date {
+    color: #000000;
+}
+
+body .rpwwt-post-categories {
+    color: #000000;
+}
+
+.text-center{
+    text-align:center;
+}
+
+.chic-bouton{
+    color: #ffffff;
+    background-color: #333333;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-top: 12px;
+    border: none;
+    cursor: pointer;
+    padding: 12px;
+    font-size: 14px;
+}
+
+#featured-slider{
+    margin-bottom:30px;
+}
+
+#chic-products{
+    padding:0 40px;
+}
+
+.chic-title{
+    font-family: 'Kalam';
+    font-size: 52px;
+    text-decoration: inherit;
+    text-transform: uppercase;
+    transform: rotate(-2deg);
+    margin:30px 40px;
+    text-align:center;
+    color: #9d4c64 !important;
+    line-height: 48px;
+}
+
+#chic-products ul.products li.product{
+    background: #f6f6f6;
+    padding-bottom: 20px;
+}
+
+.post-media a {
+    opacity: 0;
+}
+
+/*Formulaire Newsletter*/
+
+#mailpoet_form_1 .mailpoet_text_label {
+    font-family: 'Open Sans';
+}
+
+#block-5 {
+    font-family: 'Playfair Display';
+    position: relative;
+    z-index: 0;
+    text-transform: uppercase;
+    text-align: center;
+    margin-bottom: 5px;
+    clear: both;
+    overflow: hidden;
+}
+
+#block-5 p {
+    display: inline-block;
+    position: relative;
+    font-size: 16px;
+    line-height: 29px;
+    letter-spacing: 1.5px;
+    margin-bottom: 5px;
+}
+
+#block-5 p::before, #block-5 p::after {
+    content: "";
+    position: absolute;
+    top: 50%;
+    width: 1000px;
+    height: 1px;
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+    border-color: #e8e8e8;
+}
+
+#block-5 p::before {
+    right: 100%;
+    margin-right: 15px;
+}
+
+#block-5 p::after {
+    left: 100%;
+    margin-left: 15px;
+}
+
+#mailpoet_form_1 {
+    justify-content: center;
+}
+
+.email-champs .mailpoet_text {
+    height: 45px;
+    margin-bottom: 10px;
+}
+
+#mailpoet_form_1 .bouton-newsletter .mailpoet_submit {
+    font-family: 'Open Sans';
+    text-transform: uppercase;
+}
+
+#mailpoet_form_1 .bouton-newsletter .mailpoet_submit:hover {
+    cursor: pointer;
+    background-color: #ca9b52!important;
+}
+
+#main-nav #menu-item-990 > a {
+    color: #000000;
+}
+
+#main-nav #menu-item-990 > a:hover {
+    color: #996600;
+}
+
+#chic-products > div > ul > li {
+    height: 524.69px;
+    max-height: 524.69px;
+    box-sizing: inherit;
+}

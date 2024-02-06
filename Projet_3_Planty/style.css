@@ -1,0 +1,658 @@
+/*
+Theme Name: Planty
+Theme URI: https://motopress.com/products/getwid-base/
+Template: getwid-base
+Author: MotoPress
+Author URI: https://motopress.com/
+Description: Getwid Base is a clean and lightweight Gutenberg theme designed to work seamlessly with the new block-based editor and Getwid plugin - a collection of custom blocks for Gutenberg. Use Getwid Theme to build a small or midsize business website, site for a creative or digital agency, startup launch or product landing page, as well as any other kind of business or portfolio website. Thanks to the powerful combination of core Gutenberg blocks and advanced block library enabled by Getwid plugin, you'll be free to build and customize content rich pages with no coding skills involved. Theme Demo: https://getwid.getmotopress.com
+Tags: one-column,full-width-template,custom-background,custom-header,custom-menu,editor-style,featured-images,flexible-header,microformats,rtl-language-support,sticky-post,threaded-comments,translation-ready,blog,custom-logo,block-styles
+Version: 1.1.4.1700668434
+Updated: 2023-11-22 16:53:54
+
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Syne:wght@400;500;600;700;800&display=swap');
+
+body * {
+   font-family: 'Syne', sans-serif;
+}
+
+/*Header*/
+
+.entry-header {
+    display: none;
+}
+
+#masthead {
+    padding: 0;
+    border-bottom: none;
+}
+
+.site-content {
+    margin-bottom: 0;
+}
+
+.site-branding {
+    padding-top: 10px;
+    padding-left: 30px;
+    width: 201px;
+    height: 19px;
+}
+
+.custom-logo {
+    width: 201px;
+    max-width: 201px;
+}
+
+.primary-menu-wrapper {
+    flex-direction: row-reverse;
+    transition-duration: 0s;
+}
+
+#menu-item-23 {
+    width: 180px;
+}
+
+#menu-item-23 a {
+    line-height: 23px;
+    width: 180px;
+    padding-top: 28px;
+    padding-bottom: 28px;
+    padding-right: 30px;
+    padding-left: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+#menu-item-23 a:hover {
+    color: black;
+    font-weight: bolder;
+    font-size: 0.95rem;
+}
+
+.main-navigation a.commander_button {
+    color: #FFFFFF;
+    background-color: #DC9F96;
+    width: 210px;
+    height: 79px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.main-navigation a.commander_button:hover {
+    background-color: #C02E44;
+}
+
+.primary-menu-wrapper .commander_button {
+    z-index: 1;
+    opacity: 1;
+    display: block;
+    -webkit-transition: opacity .3s ease;
+    -o-transition: opacity .3s ease;
+    transition: opacity .3s ease;
+}
+
+.main-navigation.toggled .primary-menu-wrapper .commander_button {
+    opacity: 1;
+    -webkit-transition: opacity .3s ease .5s;
+    -o-transition: opacity .3s ease .5s;
+    transition: opacity .3s ease .5s;
+}
+
+.admin_menu_li {
+    width: 140px;
+    height: 79px;
+    display: flex;
+    align-items: center;
+}
+
+.main-navigation a.admin_link_menu {
+    width: 140px;
+    padding-left: 0;
+    padding-top: 28px;
+    padding-bottom: 28px;
+    text-align: center;
+}
+
+.admin_menu_li:hover .admin_link_menu {
+    color: black;
+    font-weight: bolder;
+    font-size: 0.95rem;
+}
+
+/*Body*/
+/*Main page */
+
+#post-14 > div > div.wp-block-getwid-section.alignfull.section-accueil.alignfull.getwid-margin-bottom-none.getwid-init > div > div > div.wp-block-getwid-section__background-holder > div.wp-block-getwid-section__background.has-background {
+    border-bottom: solid 10px #E3D9D0;
+    border-radius: 0% 0% 40% 40% / 0% 0% 6% 6%;
+}
+
+.titre-taille-h1 {
+    font-size: clamp(1.5rem, 0.8916rem + 2.3179vw, 2.375rem);
+}
+
+.titre-taille-h2 {
+    font-size: clamp(1.25rem, 0.8154rem + 1.6556vw, 1.875rem);
+}
+
+.texte-taille {
+    font-size: clamp(1rem, 0.8262rem + 0.6623vw, 1.25rem);
+}
+
+.section-accueil > div:nth-child(1) > div:nth-child(1) > div:nth-child(2) > div:nth-child(1) {
+    display: flex;
+    flex-direction: column;
+}
+
+.titre-boisson-energisante {
+    max-width: 800px;
+    align-self: center;
+}
+
+.paragraph-all {
+    line-height: 22px;
+}
+
+body.page .site-main > .hentry > .entry-content .paragraph-energy {
+    max-width: 500px;
+    padding-bottom: 50px;
+}
+
+.titre-les-gouts {
+    margin-bottom: 0;
+}
+
+.column-gouts-main {
+    gap: 30px;
+}
+
+body .is-layout-flex .column-gouts {
+    display: flex;
+    justify-content: center;
+    margin: 0;
+}
+
+.img-gouts {
+    min-height: 262px;
+    height: 262px;
+    width: 393px;
+}
+
+.txt-img-gouts {
+    line-height: 60px;
+}
+
+.txt-img-gouts-3 {
+    width: 80%;
+}
+
+
+.wp-block-button .wp-block-button__link {
+    text-transform: none;
+}
+
+.wp-block-button .wp-block-button__link:not(.has-background) {
+    background-color: #DC9F96;
+}
+
+#post-14 > div > div.wp-block-getwid-section.alignfull.section-gouts.alignfull.getwid-init > div > div > div.wp-block-getwid-section__background-holder > div.wp-block-getwid-section__background.has-background {
+    border-radius: 0% 0% 50% 50% / 0% 0% 5% 5%;
+}
+
+.pensent-p-column {
+    flex-wrap: wrap!important;
+    justify-content: center;
+    gap: 50px;
+}
+
+.pensent-p-column-single {
+    min-width: 310px
+}
+
+.pensent-p-column-single .wp-block-media-text {
+    display: flex;
+    justify-content: center;
+}
+
+.pensent-p-column-single .wp-block-media-text__media {
+    width: 151.69px;
+    min-width: 151.69px;
+}
+
+.pensent-p-column-single .wp-block-media-text__content {
+    width: 500px;
+    max-width: 500px;
+}
+
+.wp-block-column:not(:last-child) {
+    margin-right: 0px;
+    margin-left: 0px;
+}
+
+.paragraph-pensent {
+    line-height: 22px;
+}
+
+/*Nous rencontrer*/
+
+#post-16 > div > div.wp-block-getwid-section.alignfull.section-equipe.alignfull.getwid-margin-top-large.getwid-init > div > div {
+    max-width: 1300px;
+}
+
+.section-rencontre {
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+
+#post-16 > div > div.wp-block-getwid-section.alignfull.section-rencontre.alignfull.getwid-margin-bottom-none.getwid-init {
+    background-color: #ECE2DA;
+    border-radius: 0% 0% 50% 50% / 0% 0% 20% 20%;
+}
+
+#post-16 > div > div.wp-block-getwid-section.alignfull.section-rencontre.alignfull.getwid-margin-bottom-none.getwid-init > div > div > div.wp-block-getwid-section__content > div {
+    display: flex;
+    flex-direction: column;
+}
+
+#post-16 > div > div.wp-block-getwid-section.alignfull.section-rencontre.alignfull.getwid-margin-bottom-none.getwid-init > div > div {
+    max-width: 1250px;
+    width: 1250px;
+}
+
+.section-rencontre h1 {
+    max-width: 750px;
+    align-self: center;
+}
+
+.section-rencontre p {
+    max-width: 750px;
+    align-self: center;
+}
+
+.img-fleur-rencontre-1 {
+    position: absolute;
+    z-index: -1;
+    width: clamp(150px, 20vw, 200px);
+    top: clamp(-60px, -60px, 20vw);
+    left: 0px;
+    font-size: 50px;
+}
+
+.section-equipe {
+    position: relative;
+}
+
+.titre-equipe {
+    margin-bottom: 50px;
+    font-size: clamp(1.375rem, 1.0273rem + 1.3245vw, 1.875rem);
+}
+
+.colonnes-equipe {
+    justify-content: center;
+    padding-left: 25px;
+    gap: 50px;
+}
+
+.colonnes-equipe .colonne-unique-equipe {
+    max-width: 270px;
+}
+
+
+.img-branche-equipe {
+    position: absolute;
+    transform: scale(0.48);
+    bottom: -143px;
+    right: -95px;
+    z-index: -1;
+}
+
+/*Formulaire de contact simple*/
+
+.section-form-simple {
+    position: relative;
+}
+
+#wpcf7-f132-p16-o1 > form {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+}
+
+.titre-contact-simple {
+    margin-bottom: 50px;
+}
+
+input, textarea {
+    margin-top: 20px;
+    border-radius: 8px!important;
+    margin-bottom: 20px;
+}
+
+textarea {
+    height: 237px;
+    margin-bottom: 10px;
+}
+
+label {
+    margin-bottom: 0;
+    font-size: 1.1rem;
+}
+
+.section-form-simple p {
+    margin-bottom: 0px;
+}
+
+.section-form-simple .wpcf7-submit {
+    font-size: 0.9rem;
+    font-weight: 400;
+    text-transform: none;
+    margin-top: 10px;
+    padding: 25px 71px 25px 71px;
+    background-color: #DC9F96;
+}
+
+#wpcf7-f132-p16-o1 > form > p:nth-child(5) > span {
+    position: absolute;
+}
+
+.img-fleur-contact {
+    position: absolute;
+    z-index: -1;
+    transform: scale(1) translate(-87px, -230px);
+}
+
+.zone-texte textarea {
+    max-width: 383px;
+}
+
+/*Commander*/
+
+.titre-principal-commande {
+    padding-top: 50px;
+    padding-bottom: 20px;
+}
+
+.wp-block-separator:not(.is-style-dots):not(.is-style-wide) {
+        max-width: 100%;
+}
+
+.separateur-haut-commande {
+    height: 1px;
+    border: none;
+}
+
+/*Formulaire de commande*/
+
+.nombres-colonnes {
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+    border-bottom: solid 1px white;
+    flex-wrap: wrap;
+}
+
+.fruit-entier {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.nom-fruit-commande {
+    display: flex;
+    height: 129px;
+    width: 193px;
+    background-size: cover;
+    justify-content: center;
+    align-items: center;
+}
+
+.nom-fruit-commande-fraise {
+    background-image: url("img/fraise.png");
+}
+
+.nom-fruit-commande-pamplemousse {
+    background-image: url("img/pamplemousse.png");
+}
+
+.nom-fruit-commande-framboise {
+    background-image: url("img/framboise.png");
+}
+
+.nom-fruit-commande-citron {
+    background-image: url("img/citron.png");
+}
+
+.nom-fruit-commande p {
+    color: white;
+    font-size: 1.2rem;
+    font-weight: 800;
+    text-transform: uppercase;
+    line-height: 25px;
+}
+
+.fruit-entier .compteur-fruit {
+    height: 56px;
+    width: 60px;
+    padding: 0px;
+    padding-left: 10px;
+    padding-right: 0px;
+    border-radius: 0px;
+    text-align: center;
+}
+
+.info-livraison {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    max-width: 860px;
+    color: #FFFFFF;
+    margin-top: 55px;
+}
+
+.titre-commande {
+    font-size: clamp(1.25rem, 0.8154rem + 1.6556vw, 1.875rem);
+    font-weight: 700;
+    color: #FFFFFF;
+}
+
+.info-commande {
+    max-width: 430px;
+    border-right: solid 1px white;
+    padding-right: 44px;
+}
+
+.livraison-commande {
+    max-width: 430px;
+    padding-left: 45px;
+}
+
+.area-commande {
+    height: 71px;
+}
+
+.area-commande-last {
+    margin-bottom: 0;
+}
+
+.button-commande p {
+    display: flex;
+    justify-content: center;
+}
+
+.section-commande-full .wpcf7-submit {
+    font-size: 0.9rem;
+    font-weight: 400;
+    text-transform: none;
+    margin-top: 15px;
+    padding: 25px 71px 25px 71px;
+    background-color: #DC9F96;
+}
+
+.wpcf7-spinner {
+    position: absolute;
+}
+
+/*Pre-footer*/
+
+/*Footer*/
+
+.site-footer {
+    padding-top: 10px;
+    padding-bottom: 15px;
+    display: flex;
+    justify-content: center;
+}
+
+#colophon .legal {
+    color: black;
+
+}
+
+/*
+@media screen and (max-width: 1124px) {
+
+    .img-fleur-rencontre-1 {
+        top: -250px;
+        left: 0px;
+    }
+
+    .img-branche-equipe {
+        bottom: -163px;
+        right: -50px;
+    }
+
+}
+*/
+
+@media screen and (max-width: 992px) {
+
+    .primary-menu-wrapper {
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: flex-end;
+    }
+
+    .main-navigation a.commander_button {
+        align-self: center;
+    }
+
+    .primary-menu-wrapper .commander_button {
+        opacity: 0;
+    }
+
+    #primary-menu {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-content: center;
+    }
+
+    #menu-item-23 {
+        align-self: center;
+    }
+
+    #menu-item-23 a {
+        padding-right: 0px;
+    }
+
+    #menu-item-23 a:hover {
+        font-weight: 500;
+        font-size: 1.25rem;
+    }
+
+    .admin_menu_li {
+        justify-content: center;
+    }
+
+    .admin_menu_li a {
+        padding-right: 0;
+    }
+}
+
+@media screen and (max-width: 767.8px) {
+
+    /*Accueil*/
+
+    #post-14 > div > div.wp-block-getwid-section.alignfull.section-gouts.alignfull.getwid-init > div > div > div.wp-block-getwid-section__background-holder > div.wp-block-getwid-section__background.has-background {
+        border-radius: 0% 0% 50% 50% / 0% 0% 1% 1%;
+    }
+
+    #post-16 > div > div.wp-block-getwid-section.alignfull.section-rencontre.alignfull.getwid-section-content-custom-width.getwid-init > div > div > div.wp-block-getwid-section__background-holder > div.wp-block-getwid-section__background.has-background {
+        border-radius: 0% 0% 50% 50% / 0% 0% 5% 5%;
+    }
+
+    .column-gouts-main {
+        gap: 30px;
+        display: flex;
+    }
+
+    .column-gouts {
+        width: 193px;
+    }
+
+    .img-gouts {
+        min-height: 180px;
+        height: 180px;
+        width: 270px;
+    }
+
+    .txt-img-gouts {
+        font-size: 1.9rem!important;
+        line-height: 40px;
+    }
+
+    .pensent-p-column-single {
+        min-width: 300px;
+    }
+
+    .pensent-p-column-single .wp-block-media-text {
+        display: flex;
+    }
+
+    .pensent-p-column-single .wp-block-media-text__media {
+        min-width: 120px;
+        width: 120px;
+    }
+
+    /*Nous rencontrer*/
+
+    #post-16 > div > div.wp-block-getwid-section.alignfull.section-rencontre.alignfull.getwid-margin-bottom-none.getwid-init {
+        border-radius: 0% 0% 50% 50% / 0% 0% 10% 10%;
+    }
+
+    .colonnes-equipe {
+        padding-left: 0px;
+    }
+
+    /*Commander*/
+
+    .titre-votre-commande {
+        text-align: center;
+    }
+
+    .titre-commande {
+        text-align: center;
+    }
+}
+
+@media screen and (max-width: 927.8px) {
+
+    .info-commande {
+        border-right: none;
+        padding-right: 0;
+    }
+
+    .livraison-commande {
+        padding-top: 80px;
+        padding-left: 0;
+    }
+}
