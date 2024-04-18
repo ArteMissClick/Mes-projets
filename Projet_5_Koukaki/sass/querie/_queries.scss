@@ -1,0 +1,183 @@
+@media screen and (max-width: 1024px) {
+
+    #all-header {
+        #i-img-burg {
+            .img-burg {
+                display: none;
+            }
+        }
+    }
+
+
+    .banner {
+    
+        video {
+            display: none;
+        }
+    
+        .mobile-banner {
+            display: flex;
+            height: 100%;
+            width: 100vw;
+            max-width: 1024px;
+            margin-top: 0;
+            animation: fade-in-down 1500ms;
+        }
+
+        .pre-logo {
+            .logo-scroll {
+                position: static;
+            }
+        }
+    }
+
+    .story {
+        #characters {
+            align-items: center;
+        }
+    }
+}
+
+
+@media screen and (max-width: 920px) {
+    .story {
+        ::after {
+            display: none;
+        }
+    
+        ::before {
+            display: none;
+        }
+
+        #place {
+
+            .clouds {
+                display: none;
+            }
+        }
+    }
+
+    #studio {
+
+        &::after {
+            display: none;
+        }
+    
+        ::before {
+            display: none;
+        }
+    }
+
+    #colophon {
+        padding-top: 0;
+        .oscar {
+            margin-bottom: 70px;
+        }
+        ::after {
+            display: none;
+        }
+    
+        ::before {
+            display: none;
+        }
+    }
+}
+
+@media screen and (max-width: 768.2px) {
+    
+    .site-header {
+        .main-navigation {
+            .site-title {
+                width: 140px;
+                text-align: center;
+            }
+        }
+    }
+
+    .banner {
+        min-height: auto;
+
+        video {
+            height: fit-content;
+            width: 100vw;
+        }
+
+        .pre-logo {
+            min-height: 100%;
+        }
+    }
+
+    .story {
+    
+        .title-bg {
+            background-size: cover;
+
+        }
+    
+        #characters {
+
+            .title-bg {
+                background-size: cover;
+
+            }
+
+            .swiper-slide {
+                height: 300px;
+                img {
+                    height: 300px;
+                }
+            }
+        }
+
+        #place {
+            div {
+                .title-bg {
+                    align-self: center;
+                }
+                p {
+                    padding-left: 0;
+                }
+            }
+        }
+    }
+
+    #studio {
+    
+        .title-bg {
+            background-size: cover;
+            padding: 1em 0.5em;
+
+            .titles-page {
+                font-size: 2.5rem;
+            }
+
+        }
+    }
+
+    #colophon {
+        .oscar {
+            margin-bottom: 50px;
+
+            .oscar_contenu {
+                flex-direction: column;
+                align-items: center;
+
+                .title-bg {
+                    max-width: 500px;
+                    .titles-page {
+                        padding: 3rem;
+                        .br-osc {
+                            display: none;
+                        }
+                    }
+                }
+
+                img {
+                    align-self: center;
+                }
+                    
+            }
+        }
+    }
+
+}
